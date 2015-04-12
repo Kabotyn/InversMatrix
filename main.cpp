@@ -10,7 +10,7 @@ int main()
 {  
 
     ifstream input;
-    input.open("../MacierzOdwrotna/matrix.txt", ios::in);
+    input.open("../MacierzOdwrotna/matrix_input.txt", ios::in);
 
     if(input.good() != true) {
         cout << "Can't find a file!" << endl;
