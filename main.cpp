@@ -10,7 +10,7 @@ int main()
 {  
 
     ifstream input;
-    input.open("../MacierzOdwrotna/matrix_output.txt", ios::in);
+    input.open("../MacierzOdwrotna/matrix.txt", ios::in);
 
     if(input.good() != true) {
         cout << "Can't find a file!" << endl;
@@ -43,7 +43,7 @@ int main()
     result = MyMatrix::inverse(m);
 
     ofstream output;
-    output.open("../MacierzOdwrotna/matrix_output_2.txt", ios::out);
+    output.open("../MacierzOdwrotna/matrix_output.txt", ios::out);
     output << result.size() << "\n";
 
     // display matrix and put into file
