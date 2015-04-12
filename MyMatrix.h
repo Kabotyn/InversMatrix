@@ -7,8 +7,7 @@ class MyMatrix {
 	
 public:
 	
-    static vector<vector<double> > matrix;
-	
+
     // cout minor matrix
     static vector<vector<double> > minor(int deleteRow, int deleteCol, vector<vector<double> > m);
 	
